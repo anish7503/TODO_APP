@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.main_div{
+  background-color: aqua;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width:25%;
+  height: 80vh; 
+}
+
+.center_div h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 20px 0;
+  color:rgba(53, 218, 247, 0.87);
+  min-width: 64px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);;
+}
+
+.center_div input{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin: 20px 10% 0 0;
+  width: 70%;
+  height:35px;
+  border : none;
+  border-bottom: 3px solid rgb(53, 218, 247);
+  color:rgba(53, 218, 247, 0.87);
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.center_div .input{
+  margin: 20px 0px;
+}
+
+.btn{
+  background-color: rgb(53, 218, 247) !important;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 50% !important;
+  height: 35px;
+  color: aliceblue;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn2{
+  border-radius: 50% !important;
+  height: 30px ;
+  margin-top: 7px !important;
+  margin-left: 2px !important;
+  min-width:10px !important;
+  color: rgb(53, 218, 247) !important;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn3{
+  background-color: rgb(53, 218, 247) !important;
+  box-shadow: 5px 5px 25px -5px rgba(53, 218, 247, 0.8);
+  margin-top: 20px !important;
+  color: aliceblue !important;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: green !important;
+}
+
+.btn2:hover{
+  color: red !important;
+}
+.btn3:hover{
+  background-color: red !important;
+}
+
+.output{
+  display: absolute;
+  flex-direction: row !important;
+  width: 85%;
+}
+.output .list{
+  display:flex;
+  flex-direction: row;
+  border: 2px solid rgb(53, 218, 247);
+  border-radius: 10px;
+}
+
+ol{
+  margin-top: 15px;
+}
+
+ol li{
+  list-style: none;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 10px 8px !important;
+}
